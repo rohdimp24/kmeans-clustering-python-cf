@@ -1,0 +1,8 @@
+---
+applications:
+- name: km-clustering-python
+  memory: 2G
+  disk_quota: 2G
+  random-route: true
+  buildpack: python_buildpack
+  command: python kmeans.py
